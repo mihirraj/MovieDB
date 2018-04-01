@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MovieDb</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="NowPlaying">Now Playing</string>
+    <string name="UpcomingMovies">Upcoming Movies</string>
+    <string name="baseurl">http://image.tmdb.org/t/p/w185/</string>
+    <string name="Key">676a0afb6adf02cdba938ed669e4198d</string>
+</resources>
