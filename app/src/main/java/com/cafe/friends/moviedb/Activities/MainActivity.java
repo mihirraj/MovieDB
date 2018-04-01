@@ -1,4 +1,4 @@
-package com.cafe.friends.moviedb;
+package com.cafe.friends.moviedb.Activities;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -10,20 +10,18 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 
 import com.afollestad.bridge.Bridge;
 import com.afollestad.bridge.BridgeException;
 import com.afollestad.bridge.Callback;
 import com.afollestad.bridge.Request;
 import com.afollestad.bridge.Response;
-
-import org.json.JSONException;
+import com.cafe.friends.moviedb.Fragments.NowPlaying;
+import com.cafe.friends.moviedb.R;
+import com.cafe.friends.moviedb.Fragments.UpcomingMovies;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import static android.content.ContentValues.TAG;
 
 public class MainActivity extends AppCompatActivity {
 

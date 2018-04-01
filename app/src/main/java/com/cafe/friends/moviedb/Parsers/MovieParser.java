@@ -1,8 +1,11 @@
-package com.cafe.friends.moviedb;
+package com.cafe.friends.moviedb.Parsers;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
+
+import com.cafe.friends.moviedb.Objects.MovieObject;
+import com.cafe.friends.moviedb.Parsers.GenreParser;
 
 import org.json.JSONArray;
 import org.json.JSONException;

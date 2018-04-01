@@ -1,4 +1,4 @@
-package com.cafe.friends.moviedb;
+package com.cafe.friends.moviedb.Adapters;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -10,6 +10,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.cafe.friends.moviedb.Parsers.GenreParser;
+import com.cafe.friends.moviedb.Objects.MovieObject;
+import com.cafe.friends.moviedb.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -23,7 +26,7 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
     GenreParser genreParser;
 
     // data is passed into the constructor
-    MyRecyclerViewAdapter(Context context, List<MovieObject> data) {
+    public MyRecyclerViewAdapter(Context context, List<MovieObject> data) {
         this.mInflater = LayoutInflater.from(context);
         this.mData = data;
         genreParser = new GenreParser();

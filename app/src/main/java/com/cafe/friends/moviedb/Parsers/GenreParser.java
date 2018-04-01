@@ -1,4 +1,4 @@
-package com.cafe.friends.moviedb;
+package com.cafe.friends.moviedb.Parsers;
 
 import android.util.Log;
 

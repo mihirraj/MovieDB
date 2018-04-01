@@ -1,4 +1,4 @@
-package com.cafe.friends.moviedb;
+package com.cafe.friends.moviedb.Fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -14,6 +14,10 @@ import com.afollestad.bridge.BridgeException;
 import com.afollestad.bridge.Callback;
 import com.afollestad.bridge.Request;
 import com.afollestad.bridge.Response;
+import com.cafe.friends.moviedb.Objects.MovieObject;
+import com.cafe.friends.moviedb.Parsers.MovieParser;
+import com.cafe.friends.moviedb.Adapters.MyRecyclerViewAdapter;
+import com.cafe.friends.moviedb.R;
 
 import org.json.JSONException;
 
